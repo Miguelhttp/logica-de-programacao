@@ -6,4 +6,5 @@ bairro = input("Digite seu bairro: ")
 cidade = input("Digite sua cidade: ")
 estado = input("Digite seu estado: ")
 
-print(f"Eu sou {nomeCompleto}, tenho {idade} anos, moro na {logradouro}, {numero}, {bairro}, {cidade}, {estado}")
+print("Dados do cliente:")
+print(f"Nome completo: {nomeCompleto}\nIdade: {idade}\nEndereço: {logradouro}, {numero}\nBairro: {bairro}\nCidade: {cidade}\nEstado: {estado}")
